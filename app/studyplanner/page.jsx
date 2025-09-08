@@ -133,9 +133,7 @@ export default function StudyPlanner() {
           >
             {loading ? "Generating..." : "Generate AI Schedule"}
           </button>
-          <p className="text-sm text-center mt-2 text-gray-500">
-            Connect Supabase for full AI functionality and calendar integration
-          </p>
+         
         </div>
 
         {/* Calendar Preview */}
