@@ -81,15 +81,15 @@ export default function Navbar() {
 
         {/* Nav Links */}
         <nav className="hidden md:flex space-x-6 text-sm font-medium">
-          <Link href="/featuresection" className="text-gray-700 hover:text-blue-600 transition duration-300">
+          <Link href="/" className="text-gray-700 hover:text-blue-600 transition duration-300">
             Features
           </Link>
           <Link href="/about" className="text-gray-700 hover:text-blue-600 transition duration-300">
             About
           </Link>
-          <Link href="/pricing" className="text-gray-700 hover:text-blue-600 transition duration-300">
+          {/* <Link href="/pricing" className="text-gray-700 hover:text-blue-600 transition duration-300">
             Pricing
-          </Link>
+          </Link> */}
         </nav>
 
         {/* Auth Section */}
