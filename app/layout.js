@@ -48,7 +48,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "My Next App",
+  title: "StudyMateAI",
   description: "Next.js app with Firebase Auth",
 };
 
