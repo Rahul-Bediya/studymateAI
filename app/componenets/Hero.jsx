@@ -79,7 +79,7 @@ export default function Hero() {
         </h1>
 
         <p className="text-gray-600 mb-6 text-2xl">
-          Your all-in-one AI-powered study companion. Get instant doubt solutions, smart notes, personalized study plans, and career guidance.
+          Your all-in-one AI-powered study companion. Get instant doubt solutions, smart notes, personalized study plans, and career guidance and AI Interview Practise with real time feedback.
         </p>
 
         {/* Action Buttons */}
