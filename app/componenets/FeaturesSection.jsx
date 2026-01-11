@@ -57,6 +57,7 @@
 
 
 import FeatureCard from "./FeatureCard";
+import InterviewCard from "./InterviewPrep/InterviewCard";
 import {
   Lightbulb,
   BookOpenCheck,
@@ -132,6 +133,11 @@ export default function FeaturesSection() {
           {features.map((feature, idx) => (
             <FeatureCard key={idx} {...feature} />
           ))}
+        </div>
+
+        {/* Interview Preparation Section */}
+        <div className="mt-16">
+          <InterviewCard />
         </div>
       </section>
       <section className="py-20 bg-gradient-to-b from-white via-indigo-50 to-white text-center">
